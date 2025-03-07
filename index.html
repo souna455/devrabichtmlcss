@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=dge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Doe's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">John Doe</h1>
+        <nav class="header__nav-list">
+            <ul class="nav-list">
+                <li>
+                    <a class="nav-list__link nav-list__link--active" href="#">Home</a>
+                </li>
+<li><a class="nav-list__link" href="#about">About</a></li>
+            </ul>
+</nav>
+    </header>
+    <main class="main">
+<section class="about" id="about">
+<h2 class="about__title">About Me</h2>
+<p class="about__text">
+Hello, I'm John Doe, a web developer passionate about sreating beautiful and functional websites.
+</p>
+<p class="about__text">
+I specialize in front-end and back-end web development, and I love turning ideas into reality.
+</p>
+</section>
+<section class="portfolio" id="portfolio">
+<h2 class="portfolio__title">My Portfolio</h2>
+<div class="portfolio__cards">
+<div class="projet">
+<img class="projet__image" src="images/portfolio-1.jpg.jpg" alt="Project" />
+<h3 class="projet__title">Eco-Friendly Travel App</h3>
+<p class="projet__description">
+    An app that helps travelers find eco-conscious accommodations, activites, and of fset their carbon footprint
+</p>
+<button class="projet__button">View project</button>
+</div>
+<div class="projet">
+<img class="projet__image" src="images/portfolio-2.jpg.jpg" alt="Project" />
+<h3 class="project__title">Virtual Health andFitness Community</h3>
+<p class="projet__description">
+    A platform connecting fitness enthusiasts, offering virtual worouts, nutrition advice, and progress tracking.
+</p>
+<button class="projet__button">View project</button>
+</div>
+<div class="project">
+    <img class="projet__image" src="images/portfolio-3.jpg.jpg" alt="Project" />
+    <h3 class="portfolio__title">
+        Al-Powered Personalized Learning Platform
+    </h3>
+    <p class="projet__description">
+        An educational platform that tailors content to individual learning styles, offering interactive lessons and progress tracking.
+    </p>
+    <button class="projet__button">View project</button>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<h2 class="contact__title">Contact Me</h2>
+<form class="contact__form">
+<label class="Contact__label" for="name">Name</label>
+<input class="Contact__input" type="text" id="name" name="name" required />
+<br />
+<br />
+<label class="Contact__label" for="email">Email</label>
+<input class="Contact__input" type="email" id="email" name="email" required />
+<br />
+<br />
+<label class="Contact__label" for="message">Messsage</label>
+<textarea class="Contact__textarea" name="message" id="message" rows="4"></textarea>
+<br />
+<br />
+<input class="contact__submit" type="submit" value="Send Messsage" />
+</form>
+</section>
+<section>
+    <h1 class="bookingheader1 juniorbookingheader">Book a call!</h1>
+    <button>Call me now</button>
+</section>
+    </main>
+</body>
+</html>
